@@ -1,0 +1,41 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.rsiready.rsiready.MainActivity" >
+
+    <item
+        android:id="@+id/emergency"
+        app:showAsAction="always"
+        android:icon="@drawable/emergencyicon"
+        android:orderInCategory="1"
+        android:title="@string/action_emergency"/>
+    
+    <item
+        android:id="@+id/tools"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/tools_menu_icon"
+        android:orderInCategory="2"
+        android:title="@string/action_tools"/>
+    
+    <item 
+        android:id="@+id/rsi"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/rsi_menu_icon"
+        android:orderInCategory="3"
+        android:title="@string/action_rsi"/>
+            
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="4"
+        android:title="@string/action_settings"
+        android:icon="@drawable/settings_menu_icon"
+        app:showAsAction="ifRoom"/>
+    
+    <item
+        android:id="@+id/home_button"
+        android:orderInCategory="5"
+        android:title="@string/action_home"
+        android:icon="drawable/home_menu_icon"
+        app:showAsAction="always"/>
+
+</menu>

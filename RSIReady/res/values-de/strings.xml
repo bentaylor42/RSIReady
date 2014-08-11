@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Blitzeinleitung Bereit</string>
+    <string name="Copyright_2014">\u00A9 RSI Ready 2014.  Alle Rechte vorbehalten</string>
+    <string name="Copyright_After_2014">\u00A9 RSI Ready 2014-%1$d.  Alle Rechte vorbehalten</string>
+    <string name="Emergency">Notfall</string>
+    <string name="EmergencyMenu">Menü für Notfälle</string>
+    <string name="Home">Startseite</string>
+    <string name="Mission_Statement">Notrufe Narkose sicherer</string>
+    <string name="phemModeString">Präklinischen</string>
+    <string name="rsiNow">Blitzeinleitung Jetzt</string>
+    <string name="Settings">Einstellungen</string>
+    <string name="SettingsMenu">Einstellungen</string>  
+    <string name="TabIndications">Anforderung</string>
+    <string name="TabDrugs">Medikamente</string>
+    <string name="TabEquipment">Medizinische Geräte</string>
+    <string name="TabTeam">Team</string>
+    <string name="TabFinal">Endgültige</string>  
+    <string name="UsefulTools">Praktische Taschenrechner</string>
+    <string name="Version">Version: </string>
+    
+</resources>

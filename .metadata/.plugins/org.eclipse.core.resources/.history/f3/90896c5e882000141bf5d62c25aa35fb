@@ -1,0 +1,7 @@
+package com.rsiready.rsiready;
+
+import android.app.Fragment;
+
+public class FinalFragment  extends Fragment {
+
+}

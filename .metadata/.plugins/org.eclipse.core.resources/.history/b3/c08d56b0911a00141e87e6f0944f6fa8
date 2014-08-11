@@ -1,0 +1,11 @@
+#66CCFF
+#66CCFF
+#66CCFF#66CCFF#FF4D4D#FF4D4D<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="red">#FF4D4D</color>
+    <color name="amber">#FFBD5C</color>
+    <color name="green">#A3FF75</color>
+    <color name="blue">#66CCFF</color>
+    <color name="lightGrey">#A6A6A6</color>
+    
+</resources>

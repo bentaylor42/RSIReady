@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RSI Ready</string>
+    <string name="Copyright_2014">\u00A9 RSI Ready 2014.  All Rights Reserved</string>
+    <string name="Copyright_After_2014">\u00A9 RSI Ready 2014-%1$d.  All Rights Reserved</string>
+    <string name="Emergency">Emergency</string>
+    <string name="EmergencyMenu">Emergency Menu</string>
+    <string name="Home">Home</string>
+    <string name="Mission_Statement">Making Emergency Anesthesia Safer</string>
+    <string name="phemModeString">Pre-Hospital Mode:</string>
+    <string name="rsiNow">RSI Now</string>
+    <string name="Settings">Settings</string>
+    <string name="SettingsMenu">Settings Menu</string>
+    <string name="UsefulTools">Useful Tools</string>
+  	<string name="Version">Version: </string>
+
+</resources>

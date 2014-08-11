@@ -1,0 +1,78 @@
+package com.rsiready.rsiready;
+
+import java.util.Calendar;
+
+import android.support.v7.app.ActionBarActivity;
+import android.content.pm.PackageManager.NameNotFoundException;
+import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.widget.Switch;
+import android.widget.TextView;
+
+public class MainActivity extends ActionBarActivity {
+	
+	public TextView copyright;
+	public TextView version;
+	public Switch phemSwtich;
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_main);
+		
+		// Link the textview to the local variables
+		TextView copyright = (TextView) findViewById(R.id.textCopyright);
+		TextView version = (TextView) findViewById(R.id.textVersion);
+		Switch phemSwitch = (Switch) findViewById(R.id.switchPHEM);
+		
+		// Gets the current year for the copyright statement
+		Calendar calendar = Calendar.getInstance();
+		int year = calendar.get(Calendar.YEAR);
+		
+		// If the year is greater than 2014, amends the textview copyright statement accordingly
+		if (year != 2014){
+			String strFormat = getResources().getString(R.string.Copyright_After_2014);
+			String str = String.format(strFormat, year);
+			
+			copyright.setText(str);
+		}
+		else{
+			String str = getResources().getString(R.string.Copyright_2014);
+			
+			copyright.setText(str);
+		}
+		
+		String versionCode = "0";
+		
+		try {
+			versionCode = getPackageManager().getPackageInfo(getPackageName(), 0).versionName;
+		} catch (NameNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		String versionString = "Version: " + versionCode;
+		
+		version.setText(versionString);
+	}
+
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		// Inflate the menu; this adds items to the action bar if it is present.
+		getMenuInflater().inflate(R.menu.main, menu);
+		return true;
+	}
+
+	@Override
+	public boolean onOptionsItemSelected(MenuItem item) {
+		// Handle action bar item clicks here. The action bar will
+		// automatically handle clicks on the Home/Up button, so long
+		// as you specify a parent activity in AndroidManifest.xml.
+		int id = item.getItemId();
+		if (id == R.id.action_settings) {
+			return true;
+		}
+		return super.onOptionsItemSelected(item);
+	}
+}

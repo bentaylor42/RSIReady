@@ -1,0 +1,14 @@
+d06866<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="red">#FF4D4D</color>
+    <color name="amber">#FFBD5C</color>
+    <color name="green">#33CC33</color>
+    <color name="blue">#66CCFF</color>
+    <color name="lightGrey">#A6A6A6</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="darkRed">#D06866</color>
+    <color name="darkAmber">#D0AA70</color>
+    <color name="darkGreen">#58B458</color>
+    
+</resources>

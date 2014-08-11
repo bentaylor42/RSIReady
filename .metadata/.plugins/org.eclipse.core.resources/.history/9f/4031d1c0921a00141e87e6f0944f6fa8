@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">RSI Ready</string>
+    <string name="action_settings">Settings</string>
+    <string name="Copyright_2014">/u0059 RSI Ready.  All Rights Reserved</string>
+    <string name="Copyright_After_2014">/u0059 Copyright 2014-%1$d.  All Rights Reserved</string>
+    <string name="Version">Version %1$d</string>
+    <string name="Mission_Statement">Making Emergency Anaesthesia Safer</string>
+
+</resources>
